@@ -41,9 +41,7 @@ header {
 }
 
 .maincontainer:after{
-  content:"";
-  display: table;
-  clear: both;
+
 }
 
 .bloccosx {
@@ -62,32 +60,38 @@ header {
   margin: 0 10%;
 }
 
-.bloccodx{
-  height: 30%;
+/*stile blocchi di destra */
+.containerdx {
+  height: 100%;
+  width: 100%;
+  float. right;
+}
+
+.p1{
+  background-color: blue;
+  height: 250px;
   width: 20%;
-  background-color: red;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.p2{
+  background-color: blue;
+  height: 250px;
+  width: 20%;
   float: right;
-}
-
-/* stile blocchi a destra sottostanti */
-
-.bloccodx2{
-  height: 30%;
-  width: 20%;
-  background-color: blue;
-  position: absolute;
-  right: 0;
-  top: 35%;
+  margin-bottom: 10px;
+  position: relative;
 
 }
 
-.bloccodx3{
-  height: 30%;
-  width: 20%;
+.p3{
   background-color: blue;
+  height: 250px;
+  width: 20%;
   position: absolute;
+  top: 530px;
   right: 0;
-  top: 70%;
 }
 
 /* stile del footer */
