@@ -63,7 +63,7 @@ header {
 }
 
 .bloccodx{
-  height: 25%;
+  height: 30%;
   width: 20%;
   background-color: red;
   float: right;
@@ -72,22 +72,22 @@ header {
 /* stile blocchi a destra sottostanti */
 
 .bloccodx2{
-  height: 25%;
+  height: 30%;
   width: 20%;
   background-color: blue;
   position: absolute;
   right: 0;
-  top: 30%;
+  top: 35%;
 
 }
 
 .bloccodx3{
-  height: 25%;
+  height: 30%;
   width: 20%;
   background-color: blue;
   position: absolute;
   right: 0;
-  top: 60%;
+  top: 70%;
 }
 
 /* stile del footer */
@@ -96,5 +96,16 @@ footer{
   width: 70%;
   height: 200px;
   background-color: white;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+
+.credits{
+  height: 35%;
+  background-color: grey;
+
+}
+
+.links {
+  height: 65%;
+  background-color: yellow;
 }
