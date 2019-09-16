@@ -38,7 +38,12 @@ header {
   width: 70%;
   margin: 30px auto;
   position: relative;
+}
 
+.maincontainer:after{
+  content:"";
+  display: table;
+  clear: both;
 }
 
 .bloccosx {
@@ -74,4 +79,13 @@ header {
   right: 0;
   top: 30%;
 
+}
+
+.bloccodx3{
+  height: 25%;
+  width: 20%;
+  background-color: blue;
+  position: absolute;
+  right: 0;
+  top: 60%;
 }
