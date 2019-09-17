@@ -31,31 +31,34 @@ header {
   background-color: orange;
 }
 
-/* stile dei blocchi centrali */
+/* stile del container centrale */
 
 .maincontainer{
   height: 800px;
   width: 70%;
   margin: 30px auto;
-  position: relative;
+  background-color: green;
 }
 
 .maincontainer:after{
+  content: "";
+  display: table;
+  clear: both;
 
 }
-
+/* stile del blocco di sx */
 .bloccosx {
   height: 60%;
   width: 20%;
-  background-color: red;
+  background-color: white;
   float: left;
 
 }
-
+/* stile del blocco centrale */
 .bloccocentrale{
-  height: 20%;
+  height: 40%;
   width: 40%;
-  background-color: red;
+  background-color: white;
   float: left;
   margin: 0 10%;
 }
@@ -63,36 +66,18 @@ header {
 /*stile blocchi di destra */
 .containerdx {
   height: 100%;
+  width: 20%;
+  /* background-color: white; */
+  float: left;
+}
+
+.widget{
+  height: 30%;
   width: 100%;
-  float. right;
+  margin-bottom: 20%;
+  background: white;
 }
 
-.p1{
-  background-color: blue;
-  height: 250px;
-  width: 20%;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
-.p2{
-  background-color: blue;
-  height: 250px;
-  width: 20%;
-  float: right;
-  margin-bottom: 10px;
-  position: relative;
-
-}
-
-.p3{
-  background-color: blue;
-  height: 250px;
-  width: 20%;
-  position: absolute;
-  top: 530px;
-  right: 0;
-}
 
 /* stile del footer */
 
